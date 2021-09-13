@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://stefikocheva.github.io/Sharpi/english/</loc>
+  <lastmod>2021-09-13T19:20:46+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://stefikocheva.github.io/Sharpi/english/index.html</loc>
+  <lastmod>2021-09-13T19:20:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stefikocheva.github.io/Sharpi/english/teaching.html</loc>
+  <lastmod>2021-09-13T19:20:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stefikocheva.github.io/Sharpi/bulgarian/index.html</loc>
+  <lastmod>2021-09-13T19:20:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stefikocheva.github.io/Sharpi/english/units.html</loc>
+  <lastmod>2021-09-13T19:20:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stefikocheva.github.io/Sharpi/bulgarian/teaching.html</loc>
+  <lastmod>2021-09-13T19:20:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://stefikocheva.github.io/Sharpi/bulgarian/units.html</loc>
+  <lastmod>2021-09-13T19:20:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://stefikocheva.github.io/Sharpi/english/allUnits/basicSyntax.html</loc>
+  <lastmod>2021-09-13T19:20:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://stefikocheva.github.io/Sharpi/english/allUnits/dataTypesAndVariables.html</loc>
+  <lastmod>2021-09-13T19:20:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://stefikocheva.github.io/Sharpi/english/allUnits/ifCase.html</loc>
+  <lastmod>2021-09-13T19:20:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://stefikocheva.github.io/Sharpi/english/allUnits/switchCase.html</loc>
+  <lastmod>2021-09-13T19:20:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://stefikocheva.github.io/Sharpi/english/allUnits/nestedConditions.html</loc>
+  <lastmod>2021-09-13T19:20:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://stefikocheva.github.io/Sharpi/english/allUnits/forLoop.html</loc>
+  <lastmod>2021-09-13T19:20:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://stefikocheva.github.io/Sharpi/english/allUnits/whileAndDoWhileLoops.html</loc>
+  <lastmod>2021-09-13T19:20:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://stefikocheva.github.io/Sharpi/english/allUnits/nestedLoops.html</loc>
+  <lastmod>2021-09-13T19:20:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://stefikocheva.github.io/Sharpi/english/allUnits/arrays.html</loc>
+  <lastmod>2021-09-13T19:20:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://stefikocheva.github.io/Sharpi/bulgarian/allUnits/basicSyntax.html</loc>
+  <lastmod>2021-09-13T19:20:46+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://stefikocheva.github.io/Sharpi/bulgarian/allUnits/dataTypesAndVariables.html</loc>
+  <lastmod>2021-09-13T19:20:46+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://stefikocheva.github.io/Sharpi/bulgarian/allUnits/ifCase.html</loc>
+  <lastmod>2021-09-13T19:20:46+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://stefikocheva.github.io/Sharpi/bulgarian/allUnits/switchCase.html</loc>
+  <lastmod>2021-09-13T19:20:46+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://stefikocheva.github.io/Sharpi/bulgarian/allUnits/nestedConditions.html</loc>
+  <lastmod>2021-09-13T19:20:46+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://stefikocheva.github.io/Sharpi/bulgarian/allUnits/forLoop.html</loc>
+  <lastmod>2021-09-13T19:20:46+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://stefikocheva.github.io/Sharpi/bulgarian/allUnits/whileAndDoWhileLoops.html</loc>
+  <lastmod>2021-09-13T19:20:46+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://stefikocheva.github.io/Sharpi/bulgarian/allUnits/nestedLoops.html</loc>
+  <lastmod>2021-09-13T19:20:46+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://stefikocheva.github.io/Sharpi/bulgarian/allUnits/arrays.html</loc>
+  <lastmod>2021-09-13T19:20:46+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+
+
+</urlset>
