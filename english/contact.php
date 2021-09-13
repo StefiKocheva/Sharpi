@@ -13,6 +13,6 @@ $headers .= "Reply-To: <{$from}>" . "\r\n";
 $headers .= "X-Mailer: PHP/" . phpversion() . "\r\n";
 
 mail($to, $subject, $message, $headers);
-header("Location:http://sharpi.000webhostapp.com/index.html#contact");
+header("Location:http://sharpi.000webhostapp.com/english/index.html#contact");
 
 exit;
