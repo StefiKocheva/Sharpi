@@ -2,21 +2,17 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>Sharpi</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
 
-  <!-- Favicons -->
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="No previous experience is needed, only a real desire for success is required because anybody can start programming! Sharpi gives free training that will meet you with C# language at a basic level. Video lessons, always accompanied by their problems and exercises, based on nine topics absolutely for free." name="description">
+  <meta content="Sharpi, basic syntax, C#, for loop, while loop, do-while loop, units, video lessons, if case, switch case, coding, programming, data types, variables, arrays, free, problems, excercises, nested loops, nested conditions, easy" name="keywords">
+
   <link href="assets/img/logo.png" rel="icon">
   <link href="assets/img/logo.png" rel="apple-touch-icon">
-
-  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
   <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -24,117 +20,136 @@
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-  <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: Mentor - v4.3.0
-  * Template URL: https://bootstrapmade.com/mentor-free-education-bootstrap-theme/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+  <link href="assets/css/language.css" rel="stylesheet">
   
 </head>
 
 <body>
 
-  <!-- ======= Header ======= -->
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
       <h1 class="logo me-auto"><a href="index.html">Sharpi</a></h1>
-
-      <!-- ======= .navbar ======= -->
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
+          
           <li><a href="index.html">Home</a></li>
         </ul>
-      </nav> <!-- .navbar -->
-
+        <ul>
+          <li><a href="#about">About</a></li>
+        </ul>
+        <ul>
+          <li><a href="teaching.html">Teaching</a></li>
+        </ul>
+        <ul>
+          <li><a href="#quotes">Quotes</a></li>
+        </ul>
+        <ul>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+        <ul>
+          <li class="dropdown"><a href=""><span>Language</span><i class="bi bi-caret-down" style="font-size: 1.2em"></i></a>
+            <ul id="lang">
+              <li id="en" style="color: #5fcf80"><a onclick="location.href = '../index.html';">English</a></li>
+              <li id="bg"><a onclick="location.href = '../bulgarian/index.html';">Bulgarian</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
       <i class="bi bi-list mobile-nav-toggle"></i>
-      <a href="courses.html" class="get-started-btn">Lessons</a>
+      <a href="units.html" class="get-started-btn">Units</a>
     </div>
-  </header> <!-- End Header -->
+  </header>
 
-  <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex justify-content-center align-items-center">
     <div class="container position-relative" data-aos="zoom-in" data-aos-delay="100">
-      <h1>Coding is easy<br/>with Sharpi</h1>
-      <h2>Want to know C#? Then click below to go to the lessons list.</h2>
-      <a href="courses.html" class="btn-get-started">Get Started</a>
+      <h1>Coding is easy<br/>with <strong style="color: #5fcf80">Sharpi</strong></h1>
+      <h2>Do you want to start coding? Then click below to access the units.</h2>
+      <a href="units.html" class="btn-get-started">Get Started</a>
     </div>
-  </section> <!-- End Hero -->
+  </section> 
 
-  <!-- ======= #main ======= -->
   <main id="main">
 
-    <!-- ======= About Section ======= -->
     <section id="about" class="about">
       <section id="testimonials" class="testimonials">
         <div class="container" data-aos="fade-up">
           <div class="section-title">
-            <h2>About</h2>
+            <h2><i class="bi-clipboard-check"></i> About</h2>
+          </div>
+        </div>
+        </br>
+        <div  class="container" data-aos="fade-up">
+          <div  class="row">
+            <div id="aboutList" class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+              <ul>
+                <li><i class="bi bi-check-circle"></i>Introduction to the C# language at a basic level.</li>
+                <li><i class="bi bi-check-circle"></i>No previous experience is needed, only a real desire for success is required.</li>
+                <li><i class="bi bi-check-circle"></i>Free training that gives the most necessary knowledge.</li>
+                <li><i class="bi bi-check-circle"></i>Prove that programming can be less scary and actually easy and interesting.</li>
+                <li><i class="bi bi-check-circle"></i>Video lessons, always accompanied by their own problems and exercises based on the topic.</li>
+                <li><i class="bi bi-check-circle"></i>Answers to questions about programming.</li>
+                <li><i class="bi bi-check-circle"></i>Tips and practices that would really develop your skills and teach you how to write quality code.</li>
+                <li><i class="bi bi-check-circle"></i>Еveryone who wants to start programming, is welcome here and for sure will find something for itself.</li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>
-      <div class="container" data-aos="fade-up">
-        <div class="row">
-          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
-            <ul>
-              <li><i class="bi bi-check-circle"></i>Introduction to the C# language at a basic level.</li>
-              <li><i class="bi bi-check-circle"></i>No previous experience is needed, only real desire for success is required.</li>
-              <li><i class="bi bi-check-circle"></i>Free training that gives the most necessary knowledge.</li>
-              <li><i class="bi bi-check-circle"></i>Proves that programming can be less scary and actually easy and interesting.</li>
-              <li><i class="bi bi-check-circle"></i>Video lessons always accompanied by their own problems and excercises based on the topic.</li>
-              <li><i class="bi bi-check-circle"></i>Answers to questions about programming.</li>
-              <li><i class="bi bi-check-circle"></i>Tips and practices that would really develop your skills and teach you how to write quality code.</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section> <!-- End About Section -->
-
-    <!-- ======= Counts Section ======= -->
-    <section id="testimonials" class="testimonials">
-      <div class="container" data-aos="fade-up">
-        <div class="section-title">
-          <h2>For you</h2>
-        </div>
-        <section id="counts" class="counts section-bg">
-          <div class="container">
-            <div class="row counters">
-              <div class="col-lg-3 col-6 text-center">
-                <span data-purecounter-start="0" data-purecounter-end="9" data-purecounter-duration="1" class="purecounter"></span>
-                <p>Topics</p>
-              </div>
-              <div class="col-lg-3 col-6 text-center">
-                <span data-purecounter-start="0" data-purecounter-end="36" data-purecounter-duration="1" class="purecounter"></span>
-                <p>Problems</p>
-              </div>
-              <div class="col-lg-3 col-6 text-center">
-                <span data-purecounter-start="0" data-purecounter-end="90" data-purecounter-duration="1" class="purecounter"></span>
-                <p>Exercises</p>
-              </div>
-              <div class="col-lg-3 col-6 text-center">
-                <span data-purecounter-start="0" data-purecounter-end="9" data-purecounter-duration="1" class="purecounter"></span>
-                <p>Video lessons</p>
-              </div>
+    
+      <section id="counts" class="counts section-bg">
+        <div class="container">
+          <div class="row counters">
+            <div class="col-lg-3 col-6 text-center">
+              <span data-purecounter-start="0" data-purecounter-end="9" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Topics</p>
+            </div>
+            <div class="col-lg-3 col-6 text-center">
+              <span data-purecounter-start="0" data-purecounter-end="37" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Problems</p>
+            </div>
+            <div class="col-lg-3 col-6 text-center">
+              <span data-purecounter-start="0" data-purecounter-end="92" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Exercises</p>
+            </div>
+            <div class="col-lg-3 col-6 text-center">
+              <span data-purecounter-start="0" data-purecounter-end="9" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Video lessons</p>
             </div>
           </div>
-        </section>
-      </div>
-    </section> <!-- End Counts Section -->
-
-    <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials">
-      <div class="container" data-aos="fade-up">
-        <div class="section-title">
-          <h2>Quotes of the famous</h2>
         </div>
+      </section>
+      </br></br></br></br>
+
+      <div class="container">
+        <button class="button" onclick="hideOrShow()">Sources of information</button>
+        <div id="sourcesOfInfo">
+				  <a href="https://pixabay.com/" target="_blank"><p class="description text-center text-dark">https://pixabay.com/</p></a>
+				  <a href="https://www.tutorialsteacher.com/csharp/first-csharp-program" target="_blank"><p class="description text-center text-dark">https://www.tutorialsteacher.com/</p></a>
+				  <a href="https://medium.com/@redmondchan92/intro-to-c-switch-422d1f236787" target="_blank"><p class="description text-center text-dark">https://medium.com/</p></a>
+				  <a href="https://docs.microsoft.com/bg-bg/visualstudio/ide/reference/invert-if-statement?view=vs-2019" target="_blank"><p class="description text-center text-dark">https://docs.microsoft.com/</p></a>
+				  <a href="https://ukacademe.com/ComputerProgramming/CSharp/CS_Data_Types" target="_blank"><p class="description text-center text-dark">https://ukacademe.com/</p></a>
+				  <a href="https://www.tutorialsteacher.com/csharp/array-csharp" target="_blank"><p class="description text-center text-dark">https://www.tutorialsteacher.com/</p></a>
+          <a href="https://www.tutorialsteacher.com/csharp/csharp-for-loop"><p class="description text-center text-dark">https://www.tutorialsteacher.com/</p></a>
+          <a href="http://www.tutorialspanel.com/csharp-do-while-loop/index.htm"><p class="description text-center text-dark">http://www.tutorialspanel.com/</p></a>
+          <a href="https://kodify.net/csharp/loop/nested-loop/"><p class="description text-center text-dark">https://kodify.net/</p></a>
+          <a href="https://informationcradle.com/john-romero/"><p class="description text-center text-dark">https://informationcradle.com/</p></a>
+				  <a href="https://www.codesansar.com/c-programming/nested-if-else-statement-with-examples.htm"><p class="description text-center text-dark">https://www.codesansar.com/</p></a>
+				  <a href="https://hatchful.shopify.com/"><p class="description text-center text-dark">https://hatchful.shopify.com/</p></a>
+          <a href="https://www.cs.umd.edu/hcil/muiseum/weizenbaum/joseph_page.htm"><p class="description text-center text-dark">https://www.cs.umd.edu/</p></a>
+          <a href="https://theconversation.com/will-steve-jobs-resignation-shake-apple-to-its-core-3056"><p class="description text-center text-dark">https://theconversation.com/</p></a>
+          <a href="https://www.rfi.fr/en/20180314-stephen-hawking-s-death-leaves-black-hole"><p class="description text-center text-dark">https://www.rfi.fr/</p></a>
+          <a href="https://cacm.acm.org/news/205495-in-memoriam-seymour-papert-1928-2016/fulltext"><p class="description text-center text-dark">https://cacm.acm.org/</p></a>
+          <a href="https://www.azquotes.com/quotes/topics/computer-programming.html?p=2"><p class="description text-center text-dark">https://www.azquotes.com/</p></a>
+        </div>
+      </div>
+    </section> 
+
+    <section id="quotes" class="testimonials">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title"><h2><i class="bi-star"></i>  Quotes of the famous</h2></div>
         <div class="testimonials-slider swiper-container" data-aos="fade-up" data-aos-delay="100">
           <div class="swiper-wrapper">
-
-            <!-- ======= Testimonial item ======= -->
             <div class="swiper-slide">
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
@@ -147,9 +162,7 @@
                   </p>
                 </div>
               </div>
-            </div> <!-- End testimonial item -->
-            
-            <!-- ======= Testimonial item ======= -->
+            </div> 
             <div class="swiper-slide">
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
@@ -157,14 +170,11 @@
                   <h3>John Romero</h3>
                   <p>
                     <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    You might not think that programmers are artists, but programming is an extremely  creative profession. It's a logic-based creativity.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                    You might not think that programmers are artists, but programming is an extremely creative profession. It's logic-based creativity.                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                   </p>
                 </div>
               </div>
-            </div> <!-- End testimonial item -->
-
-            <!-- ======= Testimonial item ======= -->
+            </div>
             <div class="swiper-slide">
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
@@ -172,14 +182,11 @@
                   <h3>Seymour Papert</h3>
                   <p>
                     <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    A programming language is like a natural, human language in that it favors certain methaphors, images, and ways of thinking. 
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                    A programming language is like a natural, human language in that it favors certain metaphors, images, and ways of thinking.                     <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                   </p>
                 </div>
               </div>
-            </div> <!-- End testimonial item -->
-
-            <!-- ======= Testimonial item ======= -->
+            </div>
             <div class="swiper-slide">
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
@@ -187,96 +194,84 @@
                   <h3>Joseph Weizenbaum</h3>
                   <p>
                     <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    The computer programmer is a creator of universe for which he alone is responsible. Universes of virtually unlimited complexity can be vreated in the form of computer programs.
+                    The computer programmer is a creator of a universe for which he alone is responsible. Universes of virtually unlimited complexity can be created in the form of computer programs.
                     <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                   </p>
                 </div>
               </div>
-            </div> <!-- End testimonial item -->
-
-            <!-- ======= Testimonial item ======= -->
+            </div> 
             <div class="swiper-slide">
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
                   <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
                   <h3>Steve Jobs</h3>
+                  <p>
                     <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Everybody should learn to program a computer, because it teeaches you how to think.
+                    Everybody should learn to program a computer it teaches you how to think.
                     <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                   </p>
                 </div>
               </div>
-            </div> <!-- End testimonial item -->
-
+            </div> 
           </div>
-          <div class="swiper-pagination"></div>
+        <div class="swiper-pagination"></div>
         </div>
       </div>
-    </section> <!-- End Testimonials Section -->
+    </section> 
 
-    <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
       <section id="testimonials" class="testimonials">
         <div class="container" data-aos="fade-up">
-          <div class="section-title">
-            <h2>Contact</h2>
+          <div class="section-title"><h2><i class="bi-envelope"></i>  Contact</h2></div>
+        </div>
+        </br>
+        <div class="container" data-aos="fade-up">
+          <div id="new_div_3" class="col-lg-8 mt-5 mt-lg-0">
+            <form action="../contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" placeholder="Your name" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" placeholder="Your email" required>
+                </div>
+                <div class="form-group mt-3">
+                  <input type="text" name="subject" class="form-control" placeholder="Subject" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+              </div>
+              <div class="text-center"><button type="submit">Send message</button></div>
+            </form>
           </div>
         </div>
       </section>
-      <div class="container" data-aos="fade-up">
-        <div class="col-lg-8 mt-5 mt-lg-0">
-          <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-            <div class="row">
-              <div class="col-md-6 form-group">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-              </div>
-              <div class="col-md-6 form-group mt-3 mt-md-0">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-              </div>
-            </div>
-            <div class="form-group mt-3">
-              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-            </div>
-            <div class="form-group mt-3">
-              <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-            </div>
-            <div class="my-3">
-              <div class="loading">Loading</div>
-              <div class="error-message"></div>
-              <div class="sent-message">Your message has been sent. Thank you!</div>
-            </div>
-            <div class="text-center"><button type="submit">Send Message</button></div>
-          </form>
-        </div>
-      </div>
-    </section> <!-- End Contact Section -->
+    </section>
     
-  </main> <!-- End #main -->
+  </main>
 
-  <!-- ======= Footer ======= -->
   <footer id="footer">
-    <div class="footer-top">
-      <div class="container"></div>
-    </div>
     <div class="container d-md-flex py-4">
       <div class="social-links text-center text-md-right pt-3 pt-md-0">
-        <a href="https://instagram.com/_sharpi_/" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="https://instagram.com/_sharpi_/" class="instagram" target="_blank"><i class="bi-instagram"></i></a>
+        <a href="https://twitter.com/Sharpi_official" class="twiter" target="_blank"><i class="bi-twitter" style="position: relative;"></i></a>
+        <a href="https://youtube.com/playlist?list=PLlMA21ZMiPisOttsq-qF_Ti8Hqb9Z9VTK" class="youtube" target="_blank"><i class="bi-youtube"></i></a>
       </div>
+      
     </div>
-  </footer> <!-- End Footer -->
+  </footer>
 
   <div id="preloader"></div>
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-  <!-- Vendor JS Files -->
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/purecounter/purecounter.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-
-  <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/sourcesOfInformation.js"></script>
 
 </body>
 

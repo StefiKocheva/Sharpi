@@ -1,13 +1,7 @@
-/**
-* Template Name: Mentor - v4.3.0
-* Template URL: https://bootstrapmade.com/mentor-free-education-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -27,9 +21,6 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
-/*--------------------------------------------------------------
-# Back to top button
---------------------------------------------------------------*/
 .back-to-top {
   position: fixed;
   visibility: hidden;
@@ -60,9 +51,6 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 1;
 }
 
-/*--------------------------------------------------------------
-# Preloader
---------------------------------------------------------------*/
 #preloader {
   position: fixed;
   top: 0;
@@ -107,9 +95,6 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/*--------------------------------------------------------------
-# Disable aos animation delay on mobile devices
---------------------------------------------------------------*/
 @media screen and (max-width: 768px) {
   [data-aos-delay] {
     transition-delay: 0 !important;
@@ -119,6 +104,7 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
+
 #header {
   background: #fff;
   transition: all 0.5s;
@@ -146,9 +132,6 @@ h1, h2, h3, h4, h5, h6 {
   max-height: 40px;
 }
 
-/**
-* Get Startet Button 
-*/
 .get-started-btn {
   margin-left: 22px;
   background: #5fcf80;
@@ -176,9 +159,7 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
-/**
-* Desktop Navigation 
-*/
+
 .navbar {
   padding: 0;
 }
@@ -281,9 +262,6 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/**
-* Mobile Navigation 
-*/
 .mobile-nav-toggle {
   color: #37423b;
   font-size: 28px;
@@ -385,19 +363,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------------------------------------------------
-# Hero Section
+Hero Section
 --------------------------------------------------------------*/
+
 #hero {
-  width: 100%;
-  height: 80vh;
-  background: url("../img/hero-bg.jpg") top center;
+  height: 110vh !important;
+  background: url("../img/homeBackground.jpg") top center;
   background-size: cover;
   position: relative;
 }
 
 #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.7);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -470,8 +448,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------------------------------------------------
-# Sections General
+Sections General
 --------------------------------------------------------------*/
+
 section {
   padding: 60px 0;
   overflow: hidden;
@@ -483,6 +462,8 @@ section {
 
 .section-title {
   padding-bottom: 40px;
+  text-align: center;
+
 }
 
 .section-title h2 {
@@ -541,8 +522,15 @@ section {
 }
 
 /*--------------------------------------------------------------
-# About
+About
 --------------------------------------------------------------*/
+
+#aboutList {
+  margin: 0 auto;
+position: relative;
+width: 60%;
+}
+
 .about .content h3 {
   font-weight: 600;
   font-size: 26px;
@@ -561,6 +549,7 @@ section {
   font-size: 20px;
   padding-right: 4px;
   color: #5fcf80;
+
 }
 
 .about .content .learn-more-btn {
@@ -579,6 +568,37 @@ section {
   color: #fff;
 }
 
+.button {
+  background-color: white; 
+  border: 2px solid #5fcf80;
+  border-radius: 50px;
+  color: #5fcf80;
+  width: 80%;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  display: block;
+  margin: 0 auto;
+}
+
+.button:hover {
+  background-color: #5fcf80;
+  color: white;
+}
+
+#sourcesOfInfo {
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  background-color: #f3f3f3;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  display: none;
+  color: #5fcf80;
+}
+
 @media (max-width: 768px) {
   .about .content .learn-more-btn {
     margin: 0 48px 0 0;
@@ -587,8 +607,9 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Counts
+Counts
 --------------------------------------------------------------*/
+
 .counts {
   padding: 30px 0;
 }
@@ -610,116 +631,9 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Why Us
+Courses
 --------------------------------------------------------------*/
-.why-us .content {
-  padding: 30px;
-  background: #5fcf80;
-  border-radius: 4px;
-  color: #fff;
-}
 
-.why-us .content h3 {
-  font-weight: 700;
-  font-size: 34px;
-  margin-bottom: 30px;
-}
-
-.why-us .content p {
-  margin-bottom: 30px;
-}
-
-.why-us .content .more-btn {
-  display: inline-block;
-  background: rgba(255, 255, 255, 0.2);
-  padding: 6px 30px 8px 30px;
-  color: #fff;
-  border-radius: 50px;
-  transition: all ease-in-out 0.4s;
-}
-
-.why-us .content .more-btn i {
-  font-size: 14px;
-}
-
-.why-us .content .more-btn:hover {
-  color: #5fcf80;
-  background: #fff;
-}
-
-.why-us .icon-boxes .icon-box {
-  text-align: center;
-  background: #fff;
-  padding: 40px 30px;
-  width: 100%;
-  border: 1px solid #eef0ef;
-}
-
-.why-us .icon-boxes .icon-box i {
-  font-size: 32px;
-  padding: 18px;
-  color: #5fcf80;
-  margin-bottom: 30px;
-  background: #ecf9f0;
-  border-radius: 50px;
-}
-
-.why-us .icon-boxes .icon-box h4 {
-  font-size: 20px;
-  font-weight: 700;
-  margin: 0 0 30px 0;
-}
-
-.why-us .icon-boxes .icon-box p {
-  font-size: 15px;
-  color: #848484;
-}
-
-/*--------------------------------------------------------------
-# Features
---------------------------------------------------------------*/
-.features {
-  padding-top: 0px;
-}
-
-.features .icon-box {
-  display: flex;
-  align-items: center;
-  padding: 20px;
-  transition: 0.3s;
-  border: 1px solid #eef0ef;
-}
-
-.features .icon-box i {
-  font-size: 32px;
-  padding-right: 10px;
-  line-height: 1;
-}
-
-.features .icon-box h3 {
-  font-weight: 700;
-  margin: 0;
-  padding: 0;
-  line-height: 1;
-  font-size: 16px;
-}
-
-.features .icon-box h3 a {
-  color: #37423b;
-  transition: 0.3s;
-}
-
-.features .icon-box:hover {
-  border-color: #5fcf80;
-}
-
-.features .icon-box:hover h3 a {
-  color: #5fcf80;
-}
-
-/*--------------------------------------------------------------
-# Courses
---------------------------------------------------------------*/
 .courses .course-item {
   border-radius: 5px;
   border: 1px solid #eef0ef;
@@ -732,6 +646,7 @@ section {
 .courses .course-content h3 {
   font-weight: 700;
   font-size: 20px;
+  text-align: center;
 }
 
 .courses .course-content h3 a {
@@ -784,65 +699,10 @@ section {
   font-size: 18px;
   color: #657a6d;
 }
-
 /*--------------------------------------------------------------
-# Trainers
+Testimonials
 --------------------------------------------------------------*/
-.trainers .member {
-  text-align: center;
-  margin-bottom: 20px;
-  background: #fff;
-  border: 1px solid #eef0ef;
-}
 
-.trainers .member img {
-  margin: -1px -1px 30px -1px;
-}
-
-.trainers .member .member-content {
-  padding: 0 20px 30px 20px;
-}
-
-.trainers .member h4 {
-  font-weight: 700;
-  margin-bottom: 2px;
-  font-size: 18px;
-}
-
-.trainers .member span {
-  font-style: italic;
-  display: block;
-  font-size: 13px;
-}
-
-.trainers .member p {
-  padding-top: 10px;
-  font-size: 14px;
-  font-style: italic;
-  color: #aaaaaa;
-}
-
-.trainers .member .social {
-  margin-top: 15px;
-}
-
-.trainers .member .social a {
-  color: #7e9486;
-  transition: 0.3s;
-}
-
-.trainers .member .social a:hover {
-  color: #5fcf80;
-}
-
-.trainers .member .social i {
-  font-size: 18px;
-  margin: 0 2px;
-}
-
-/*--------------------------------------------------------------
-# Testimonials
---------------------------------------------------------------*/
 .testimonials .testimonial-wrap {
   padding-left: 50px;
 }
@@ -933,8 +793,9 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Cource Details
+Cource Details
 --------------------------------------------------------------*/
+
 .course-details h3 {
   font-size: 24px;
   margin: 30px 0 15px 0;
@@ -987,9 +848,6 @@ section {
   color: #657a6d;
 }
 
-/*--------------------------------------------------------------
-# Cource Details Tabs
---------------------------------------------------------------*/
 .cource-details-tabs {
   overflow: hidden;
   padding-top: 0;
@@ -1051,82 +909,17 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Events
+Contact
 --------------------------------------------------------------*/
-.events .card {
-  border: 0;
-  padding: 0 30px;
-  margin-bottom: 60px;
+
+#new_div_3 {
+  margin: 0 auto;
   position: relative;
+  width: 60%;
 }
-
-.events .card-img {
-  width: calc(100% + 60px);
-  margin-left: -30px;
-  overflow: hidden;
-  z-index: 9;
-  border-radius: 0;
-}
-
-.events .card-img img {
-  max-width: 100%;
-  transition: all 0.3s ease-in-out;
-}
-
-.events .card-body {
-  z-index: 10;
-  background: #fff;
-  border-top: 4px solid #fff;
-  padding: 30px;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-  margin-top: -60px;
-  transition: 0.3s;
-}
-
-.events .card-title {
-  font-weight: 700;
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.events .card-title a {
-  color: #37423b;
-  transition: 0.3s;
-}
-
-.events .card-text {
-  color: #5e5e5e;
-}
-
-.events .read-more a {
-  color: #777777;
-  text-transform: uppercase;
-  font-weight: 600;
-  font-size: 12px;
-  transition: 0.3s;
-}
-
-.events .read-more a:hover {
-  color: #5fcf80;
-}
-
-.events .card:hover img {
-  transform: scale(1.1);
-}
-
-.events .card:hover .card-body {
-  border-color: #5fcf80;
-}
-
-.events .card:hover .card-body .card-title a {
-  color: #5fcf80;
-}
-
-/*--------------------------------------------------------------
-# Contact
---------------------------------------------------------------*/
 .contact {
   padding-top: 5px;
+  text-align: center;
 }
 
 .contact .info {
@@ -1273,8 +1066,9 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Footer
+Footer
 --------------------------------------------------------------*/
+
 #footer {
   color: #37423b;
   font-size: 14px;
@@ -1416,7 +1210,7 @@ section {
 }
 
 #footer .social-links a {
-  font-size: 18px;
+  font-size: 21px;
   display: inline-block;
   background: #5fcf80;
   color: #fff;
