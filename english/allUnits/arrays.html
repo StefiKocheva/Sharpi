@@ -86,7 +86,7 @@
             <div style="background-color: #f3f3f3;padding: 21px;"
               class="course-info d-flex justify-content-between align-items-center">
               <a href="../../materials/arrays.zip" download="arrays.zip"
-                onclick="alert('Are you sure you want to download this file?');">
+                onclick="showAlertInEnglish()">
                 <h5 style="color: #1d1d1d;"><em>Download Problems</em></h5>
               </a>
             </div>
@@ -95,6 +95,13 @@
       </div>
       </br></br>
     </section>
+    <script>
+      function showAlertInEnglish(){
+        if( confirm('Are you sure you want to download this file?')){
+          return 
+        };
+      }
+    </script>
 
     <div style="text-align: center" class="container">
       <div class="container" data-aos="fade-up">
